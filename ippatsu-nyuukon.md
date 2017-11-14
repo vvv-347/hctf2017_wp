@@ -248,6 +248,6 @@ hctf{Dr1v5r_M5ngM4n_2Oi7}
 
 ps: 附一张成功cm的截图
 
-![这里写图片描述](http://img.blog.csdn.net/20171113195719931)
+![](http://img.blog.csdn.net/20171113195719931)
 
 --END--
