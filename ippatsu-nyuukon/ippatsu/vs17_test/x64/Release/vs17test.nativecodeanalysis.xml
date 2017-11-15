@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+      <FILENAME>vs17test.cpp</FILENAME>
+      <LINE>47</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>从“tst_msg”中读取的数据无效: 可读大小为“_Old_11`511”个字节，但可能读取了“512”个字节。</DESCRIPTION>
+    <FUNCTION>wmain</FUNCTION>
+    <DECORATED>wmain</DECORATED>
+    <FUNCLINE>19</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>21</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>22</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>23</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“tst_msg”是一个 1024 字节数组</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>27</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>28</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>分支</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“&lt;分支条件&gt;”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>36</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tst_msg”是“memset”中的输出(在 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:60 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>46</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>声明</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“tst_msg”是“memset”中的输出(在 c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.11.25503\include\vcruntime_string.h:60 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\</FILEPATH>
+        <FILENAME>vs17test.cpp</FILENAME>
+        <LINE>47</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>使用情况</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“tst_msg[511]”中读取无效(可读范围是 0 到 510)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,12 @@
+﻿  vs17test.cpp
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(6): warning C4081: 应输入“newline”；找到“;”
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(15): error C4996: 'wcslwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _wcslwr. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\corecrt_wstring.h(627): note: 参见“wcslwr”的声明
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(38): error C4235: 使用了非标准扩展: 不支持在此结构上使用“__asm”关键字
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2065: “mov”: 未声明的标识符
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2146: 语法错误: 缺少“;”(在标识符“eax”的前面)
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2065: “eax”: 未声明的标识符
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2065: “fs”: 未声明的标识符
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2143: 语法错误: 缺少“;”(在“:”的前面)
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(39): error C2059: 语法错误:“:”
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(75): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据

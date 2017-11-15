@@ -1,0 +1,6 @@
+﻿  vs17test.cpp
+c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\vs17test.cpp(10): warning C4477: “scanf_s”: 格式字符串“%c”需要类型“unsigned int”的参数，但可变参数 2 拥有了类型“int *”
+  c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\vs17test.cpp(10): note: 此参数用作缓冲区大小
+c:\users\vvv\desktop\hctf 2017 出题\driver rev\vs17_test\vs17_test\vs17test.cpp(10): warning C4477: “scanf_s”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 3 拥有了类型“int”
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\Driver Rev\vs17_test\x64\Debug\vs17_test.exe
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\Driver Rev\vs17_test\x64\Debug\vs17_test.pdb (Partial PDB)

@@ -1,0 +1,16 @@
+﻿  Anti-Debug.cpp
+  scode.cpp
+  scode1.cpp
+  scode2.cpp
+  scode3.cpp
+  smc.cpp
+  vs17test.cpp
+vs17test.cpp(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+vs17test.cpp(12): warning C4081: 应输入“newline”；找到“;”
+  正在生成代码
+  12 of 28 functions (42.9%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\签到 Rev\vs17_test\Release\vs17_test.exe
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\签到 Rev\vs17_test\Release\vs17_test.pdb (Full PDB)

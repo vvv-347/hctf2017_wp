@@ -1,0 +1,5 @@
+﻿  vs17test.cpp
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(7): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(12): warning C4081: 应输入“newline”；找到“;”
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\签到 Rev\vs17_test\Debug\vs17_test.exe
+  vs17_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\签到 Rev\vs17_test\Debug\vs17_test.pdb (Partial PDB)

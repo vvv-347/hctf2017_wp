@@ -1,0 +1,51 @@
+应用层             ---发信--->         驱动层
+
+发送字符串                           处理发过来的字符串
+与flag相同即为正解                   cmp 一致则为正解
+
+
+处理方法
+	0. 
+	enc1_flag des后的, 作为初始加密flag
+
+	1. 加密
+	base64(des(input, 0xDEADBEEF)) xor 随机变量
+	enc1_flag xor 随机变量 
+
+	2. cmp
+	比较上两步的结果 一样就返回正解
+
+	3. 无论成功与否，都回显本次enc1_flag xor 随机变量的值
+
+
+解题思路
+	看出来是des+base64
+	获取本次生成的随机变量
+	获取本次最终加密的值
+	最终加密的值 xor 随机变量 -> decode: base64 -> decrypt: des(key: deadbeef)
+
+
+
+1. 驱动中获取随机数
+
+hctf{Dr1v5r_M5ngM4n_2Oi7}
+des:
+	aed3899df15bd7babb99acf5ebb9f5cd8cd44a77c53263de46ef9f3d773fe908
+
+flag在驱动中保存为
+aed3899df15bd7babb99acf5ebb9f5cd8cd44a77c53263de46ef9f3d773fe908 并和 随机变量做异或 保存为最终flag
+
+input在驱动中先DES(key:deadbeef) 再base64 最后与随机变量做异或 与保存在最终falag进行比较
+
+
+code:
+	1. 生成随机数 
+
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/
+
+c3b8709fc1d2f0be
+bcb9f83c49779549
+474416c23c29d0c9
+
+
+"aed3899df15bd7babb99acf5ebb9f5cd8cd44a77c53263de46ef9f3d773fe908"

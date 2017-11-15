@@ -1,0 +1,5 @@
+﻿  Building 'Driver_test' with toolset 'WindowsKernelModeDriver10.0' and the 'Desktop' target platform.
+  Stamping x64\Release\Driver_test.inf [Version] section with DriverVer=10/24/2017,19.9.53.84
+  DriverEntry.c
+  Driver_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\Driver Rev\Driver_test\x64\Release\Driver_test.sys
+  Driver_test.vcxproj -> C:\Users\vvv\Desktop\hctf 2017 出题\Driver Rev\Driver_test\x64\Release\Driver_test.pdb (Full PDB)

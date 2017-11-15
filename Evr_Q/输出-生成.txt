@@ -1,0 +1,7 @@
+﻿1>------ 已启动生成: 项目: vs17_test, 配置: Debug Win32 ------
+1>vs17test.cpp
+1>c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(9): warning C4081: 应输入“newline”；找到“;”
+1>c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(94): error C2084: 函数“void sub_msg(void)”已有主体
+1>c:\users\vvv\desktop\hctf 2017 出题\签到 rev\vs17_test\vs17_test\vs17test.cpp(91): note: 参见“sub_msg”的前一个定义
+1>已完成生成项目“vs17_test.vcxproj”的操作 - 失败。
+========== 生成: 成功 0 个，失败 1 个，最新 0 个，跳过 0 个 ==========

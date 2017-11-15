@@ -1,0 +1,4 @@
+﻿  vs17test.cpp
+d:\vvv\v_document\doce\visual studio\vs17\vs17_test\vs17_test\vs17_test\vs17test.cpp(40): warning C4267: “参数”: 从“size_t”转换到“DWORD”，可能丢失数据
+  vs17_test.vcxproj -> D:\VVV\V_Document\Doce\visual studio\vs17\vs17_test\vs17_test\x64\Debug\vs17_test.exe
+  vs17_test.vcxproj -> D:\VVV\V_Document\Doce\visual studio\vs17\vs17_test\vs17_test\x64\Debug\vs17_test.pdb (Partial PDB)
